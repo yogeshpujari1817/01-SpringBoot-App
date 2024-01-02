@@ -9,7 +9,11 @@ public class JavaAppApplication {
 
 	public static void main(String[] args) {
 		
+
+		private Map<String,object> cache = new HashMap<String,object>();
+
 		private static final string REST_URL="https://www.quifax.com/getScores"
+
 		
 		ConfigurableApplicationContext run = SpringApplication.run(JavaAppApplication.class, args);
 		
@@ -17,6 +21,11 @@ public class JavaAppApplication {
 		
 		//changes for HIS-134
 		run.close();
+		
+		//HIS-301 changes
+		public void loadDataToCache(){
+			//logic
+		}
 	}
 
 	
