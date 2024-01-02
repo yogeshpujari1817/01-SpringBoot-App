@@ -16,6 +16,14 @@ public class JavaAppApplication {
 		//changes for HIS-134
 		run.close();
 	}
+	
+	//HIS 200 Realted Changes
+
+	public void doProcess(){
+		
+		//logic goes here
+		
+	}
 
 	
 }
