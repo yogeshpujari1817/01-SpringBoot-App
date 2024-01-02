@@ -11,8 +11,18 @@ public class JavaAppApplication {
 		
 		ConfigurableApplicationContext run = SpringApplication.run(JavaAppApplication.class, args);
 		
+		int i =10;
+		
 		//changes for HIS-134
 		run.close();
+	}
+	
+	//HIS 200 Realted Changes
+
+	public void doProcess(){
+		
+		//logic goes here
+		
 	}
 
 	
